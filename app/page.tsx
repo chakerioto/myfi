@@ -4,7 +4,6 @@ import React from 'react'
 import { MILE_STONE } from './constants';
 import moment from 'moment'
 
-
 function format2(n: any) {
     return n.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,').replace(/\.00$/, "");
 }
